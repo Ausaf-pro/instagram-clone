@@ -1,0 +1,64 @@
+.instagramEmbed{
+   max-width: 500px;
+   background-color: white;
+   border: 1px solid lightgray;
+   margin-bottom: 45px;
+}
+.instagramEmbed__image {
+   width: 100%;
+   object-fit: contain;
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+}
+
+.instagramEmbed__text {
+   font-weight: normal;
+   padding: 20px;
+}
+
+.instagramEmbed__header {
+   display: flex;
+   padding: 20px;
+   align-items: center;
+}
+
+.instagramEmbed__avatar {
+   margin-right: 10px;
+}
+
+.instagramEmbed__drop {
+   display: flex;
+   flex-direction: column;
+}
+
+.instagramEmbed__drop > a {
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+
+.instagramEmbed__dropIcon {
+   margin-left: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+   border-bottom: 1px solid lightgray;
+}
+
+.innerIcon {
+   margin-left: 5px;
+}
+
+.instagramEmbed__dropIconBookmark{
+   margin-left: 370px;
+}
+
+.instagramEmbed__profileButton {
+   margin-left: 150px;
+   padding: 5px;
+   background: rgb(170, 170, 255);
+   border-radius: 5px;
+   border: none;
+}
+.red {
+   color: red;
+}
